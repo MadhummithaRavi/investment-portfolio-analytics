@@ -1,0 +1,217 @@
+[0m18:24:28.963291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001904638D7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190498F0650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019049548A40>]}
+
+
+============================== 18:24:28.974590 | 0c77dae9-5176-4bba-a5c9-f64dedefa773 ==============================
+[0m18:24:28.974590 [info ] [MainThread]: Running with dbt=1.11.11
+[0m18:24:28.974590 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Balaji K\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init investment_dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:24:29.002025 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Balaji K\.dbt
+[0m18:24:29.017074 [debug] [MainThread]: Starter project path: C:\dbt_project\venv\Lib\site-packages\dbt\include\starter_project
+[0m18:24:29.078094 [info ] [MainThread]: 
+Your new dbt project "investment_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:24:29.084907 [info ] [MainThread]: Setting up your profile.
+[0m18:27:34.632503 [info ] [MainThread]: Profile investment_dbt written to C:\Users\Balaji K\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:27:34.632503 [debug] [MainThread]: Command `dbt init` succeeded at 18:27:34.632503 after 185.94 seconds
+[0m18:27:34.648225 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019047760EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190625FC260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000190625E12E0>]}
+[0m18:27:34.648225 [debug] [MainThread]: Flushing usage events
+[0m18:27:35.933692 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:27:54.137876 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A98812E40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A9B67CB30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A9B67C530>]}
+
+
+============================== 18:27:54.139731 | 44b02856-909b-4877-9ea2-f96d54b787d6 ==============================
+[0m18:27:54.139731 [info ] [MainThread]: Running with dbt=1.11.11
+[0m18:27:54.139731 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Balaji K\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:27:54.170595 [info ] [MainThread]: dbt version: 1.11.11
+[0m18:27:54.170595 [info ] [MainThread]: python version: 3.12.10
+[0m18:27:54.170595 [info ] [MainThread]: python path: C:\dbt_project\venv\Scripts\python.exe
+[0m18:27:54.170595 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m18:27:55.305508 [info ] [MainThread]: Using profiles dir at C:\Users\Balaji K\.dbt
+[0m18:27:55.305508 [info ] [MainThread]: Using profiles.yml file at C:\Users\Balaji K\.dbt\profiles.yml
+[0m18:27:55.307516 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Balaji K\Desktop\investment-portfolio-analytics\dbt\dbt_project.yml
+[0m18:27:55.308098 [info ] [MainThread]: adapter type: bigquery
+[0m18:27:55.308098 [info ] [MainThread]: adapter version: 1.11.1
+[0m18:27:55.308098 [info ] [MainThread]: Configuration:
+[0m18:27:55.308098 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:27:55.308098 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m18:27:55.308098 [info ] [MainThread]: Required dependencies:
+[0m18:27:55.308098 [debug] [MainThread]: Executing "git --help"
+[0m18:27:55.360777 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:27:55.360777 [debug] [MainThread]: STDERR: "b''"
+[0m18:27:55.360777 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:27:55.360777 [info ] [MainThread]: Connection:
+[0m18:27:55.360777 [info ] [MainThread]:   method: oauth
+[0m18:27:55.360777 [info ] [MainThread]:   database: investment-analytics-demo
+[0m18:27:55.360777 [info ] [MainThread]:   execution_project: investment-analytics-demo
+[0m18:27:55.360777 [info ] [MainThread]:   schema: .investment_analytics
+[0m18:27:55.360777 [info ] [MainThread]:   location: EU
+[0m18:27:55.360777 [info ] [MainThread]:   priority: interactive
+[0m18:27:55.360777 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m18:27:55.360777 [info ] [MainThread]:   impersonate_service_account: None
+[0m18:27:55.360777 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m18:27:55.376419 [info ] [MainThread]:   job_retries: 1
+[0m18:27:55.376419 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m18:27:55.376419 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m18:27:55.376419 [info ] [MainThread]:   timeout_seconds: 300
+[0m18:27:55.376419 [info ] [MainThread]:   client_id: None
+[0m18:27:55.376419 [info ] [MainThread]:   token_uri: None
+[0m18:27:55.376419 [info ] [MainThread]:   compute_region: None
+[0m18:27:55.376419 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m18:27:55.376419 [info ] [MainThread]:   gcs_bucket: None
+[0m18:27:55.376419 [info ] [MainThread]:   dataproc_batch: None
+[0m18:27:55.376419 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m18:27:56.066108 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m18:27:56.066108 [debug] [MainThread]: On debug: select 1 as id
+[0m18:27:56.066108 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:28:07.905680 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery " "client: 'Runtime Error
+  Failed to authenticate with supplied credentials
+  error:
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.'
+[0m18:28:07.905680 [debug] [MainThread]: BigQuery adapter: Unhandled error while running:
+select 1 as id
+[0m18:28:07.905680 [debug] [MainThread]: BigQuery adapter: Database Error
+  Runtime Error
+    Failed to authenticate with supplied credentials
+    error:
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+[0m18:28:07.905680 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m18:28:07.905680 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m18:28:07.905680 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Balaji K\Desktop\investment-portfolio-analytics\dbt\dbt_project.yml> not found
+
+[0m18:28:07.905680 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >'NoneType' object has no attribute 'close'
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m18:28:07.905680 [debug] [MainThread]: Command `dbt debug` failed at 18:28:07.905680 after 14.16 seconds
+[0m18:28:07.905680 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025A9B1CD220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025AB628DF40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025AB6153F80>]}
+[0m18:28:07.905680 [debug] [MainThread]: Flushing usage events
+[0m18:28:09.009852 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:28:59.629795 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002519BEDA420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025199B73FE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002519C798980>]}
+
+
+============================== 18:28:59.629795 | 5ae28558-e5a2-4ff7-9ba1-be372e782592 ==============================
+[0m18:28:59.629795 [info ] [MainThread]: Running with dbt=1.11.11
+[0m18:28:59.644124 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Balaji K\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt init investment_dbt', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:28:59.687377 [info ] [MainThread]: A project called investment_dbt already exists here.
+[0m18:28:59.687377 [debug] [MainThread]: Command `dbt init` succeeded at 18:28:59.687377 after 0.30 seconds
+[0m18:28:59.687377 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002519CE88DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002519CE8AD20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002519E1B7140>]}
+[0m18:28:59.687377 [debug] [MainThread]: Flushing usage events
+[0m18:29:00.921766 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:30:14.158281 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257EC3EA960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257ECD9D7C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257ECD9F740>]}
+
+
+============================== 18:30:14.173987 | 79c64bbf-b113-4678-99d9-dc2e0f612fc5 ==============================
+[0m18:30:14.173987 [info ] [MainThread]: Running with dbt=1.11.11
+[0m18:30:14.173987 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Balaji K\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init investment_proj_dbt', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:30:14.205645 [debug] [MainThread]: Starter project path: C:\dbt_project\venv\Lib\site-packages\dbt\include\starter_project
+[0m18:30:14.221345 [info ] [MainThread]: 
+Your new dbt project "investment_proj_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:30:14.237490 [info ] [MainThread]: Setting up your profile.
+[0m18:31:19.880239 [info ] [MainThread]: Profile investment_proj_dbt written to C:\Users\Balaji K\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:31:19.880239 [debug] [MainThread]: Command `dbt init` succeeded at 18:31:19.880239 after 65.98 seconds
+[0m18:31:19.886329 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000257EC228170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025788258980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025787AA1C10>]}
+[0m18:31:19.887409 [debug] [MainThread]: Flushing usage events
+[0m18:31:21.110474 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:31:36.851713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E658988CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6569E6DE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E6591815E0>]}
+
+
+============================== 18:31:36.851713 | 9180778a-e0e4-42f8-837b-6ef319120396 ==============================
+[0m18:31:36.851713 [info ] [MainThread]: Running with dbt=1.11.11
+[0m18:31:36.851713 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Balaji K\\.dbt', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:31:36.884212 [info ] [MainThread]: dbt version: 1.11.11
+[0m18:31:36.889184 [info ] [MainThread]: python version: 3.12.10
+[0m18:31:36.889184 [info ] [MainThread]: python path: C:\dbt_project\venv\Scripts\python.exe
+[0m18:31:36.891360 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m18:31:38.156423 [info ] [MainThread]: Using profiles dir at C:\Users\Balaji K\.dbt
+[0m18:31:38.156423 [info ] [MainThread]: Using profiles.yml file at C:\Users\Balaji K\.dbt\profiles.yml
+[0m18:31:38.156423 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Balaji K\Desktop\investment-portfolio-analytics\dbt\dbt_project.yml
+[0m18:31:38.156423 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m18:31:38.156423 [debug] [MainThread]: Command `dbt debug` failed at 18:31:38.156423 after 1.60 seconds
+[0m18:31:38.156423 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E65592FD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E673450560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E673B03F80>]}
+[0m18:31:38.156423 [debug] [MainThread]: Flushing usage events
+[0m18:31:39.334307 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:33:40.909089 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248B4CAD7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248B4D18170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248B7DF6180>]}
+
+
+============================== 18:33:40.912236 | aa6db3ed-f84d-4b01-8127-fa24c8daeb72 ==============================
+[0m18:33:40.912236 [info ] [MainThread]: Running with dbt=1.11.11
+[0m18:33:40.912236 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Balaji K\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init investmentdbt', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:33:40.957126 [debug] [MainThread]: Starter project path: C:\dbt_project\venv\Lib\site-packages\dbt\include\starter_project
+[0m18:33:40.975673 [info ] [MainThread]: 
+Your new dbt project "investmentdbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:33:40.975673 [info ] [MainThread]: Setting up your profile.
+[0m18:34:17.818555 [info ] [MainThread]: Profile investmentdbt written to C:\Users\Balaji K\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:34:17.818555 [debug] [MainThread]: Command `dbt init` succeeded at 18:34:17.818555 after 37.15 seconds
+[0m18:34:17.818555 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248B4D18170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248D2D806E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000248D3244890>]}
+[0m18:34:17.818555 [debug] [MainThread]: Flushing usage events
+[0m18:34:19.172651 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:34:27.255871 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025C0AB77AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025C0D8FA180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025C0D8F93A0>]}
+
+
+============================== 18:34:27.268601 | 6ab6776e-c885-415f-9a75-71e3c5d1b48d ==============================
+[0m18:34:27.268601 [info ] [MainThread]: Running with dbt=1.11.11
+[0m18:34:27.268601 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Balaji K\\.dbt', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m18:34:27.300080 [info ] [MainThread]: dbt version: 1.11.11
+[0m18:34:27.300080 [info ] [MainThread]: python version: 3.12.10
+[0m18:34:27.300080 [info ] [MainThread]: python path: C:\dbt_project\venv\Scripts\python.exe
+[0m18:34:27.300080 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m18:34:28.451708 [info ] [MainThread]: Using profiles dir at C:\Users\Balaji K\.dbt
+[0m18:34:28.451708 [info ] [MainThread]: Using profiles.yml file at C:\Users\Balaji K\.dbt\profiles.yml
+[0m18:34:28.451708 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Balaji K\Desktop\investment-portfolio-analytics\dbt\dbt_project.yml
+[0m18:34:28.451708 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m18:34:28.467437 [debug] [MainThread]: Command `dbt debug` failed at 18:34:28.467437 after 1.42 seconds
+[0m18:34:28.467437 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025C0F1FC3B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025C28703F80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025C28795A00>]}
+[0m18:34:28.467437 [debug] [MainThread]: Flushing usage events
+[0m18:34:29.630030 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,6 @@
+trade_id,trade_date,symbol,quantity,price
+1,2026-06-01,AAPL,10,210
+2,2026-06-01,MSFT,5,450
+3,2026-06-02,NVDA,3,150
+4,2026-06-02,AAPL,8,215
+5,2026-06-03,GOOG,2,175
