@@ -1,0 +1,6 @@
+version: 2
+
+sources:
+  - name: investment_analytics
+    tables:
+      - name: raw_trades
