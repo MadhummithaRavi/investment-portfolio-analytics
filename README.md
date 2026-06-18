@@ -3,6 +3,9 @@
 ## Overview
 A personal project built to gain hands-on experience with the modern data stack using BigQuery, dbt, Airflow, and GitHub.
 
+## Architecture Diagram
+![alt text](Flowchart.png)
+
 ## Architecture
 CSV → BigQuery → dbt → Portfolio Analytics → Airflow
 
